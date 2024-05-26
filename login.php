@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location: home.php");
+    header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="styleLR.css">
 
-	<title>Murah Senyum</title>
+	<title>form login</title>
 </head>
 <body>
 	<div class="container">
