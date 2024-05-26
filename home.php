@@ -33,7 +33,7 @@ if (!isset($_SESSION['username'])) {
             <nav class="navbar">
                 <a href="#home">home</a>
                 <a href="data.html">data hewan</a>
-                <a href="">dokter</a>
+                <a href="dokter.php">dokter</a>
                 <a href="logout.php">LogOut</a>
             </nav>
 
