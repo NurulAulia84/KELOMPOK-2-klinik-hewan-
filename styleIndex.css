@@ -20,7 +20,7 @@ html{
 
 section{
     padding: 2rem 9%;
-}
+} 
 
 .heading{
     text-align: center;
@@ -181,7 +181,7 @@ header .fa-bars{
 
 .janji-temu .heading{
     padding-top: 50px;
-}
+} */
 
 /*jadwal starts*/
 .data .row form{
@@ -328,7 +328,7 @@ header .fa-bars{
     gap: 1.5rem;
 }
 
-/*profil starts*/
+/*jadwal starts*/
 .profil .box-container .box{
     flex: 1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -367,7 +367,14 @@ header .fa-bars{
 .profil .heading{
     padding-top: 50px;
 }
-/*profil ends*/
+
+th, td {
+    border-style:solid;
+    border-color: #96D4D4;
+    padding: 1rem
+  }
+/*jadwal ends*/
+
 .review .box-container .box{
     flex: 1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -620,4 +627,4 @@ h1{
         font-size: 3rem;
         line-height: 1.5;
     }
-}
+} 
