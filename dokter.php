@@ -8,8 +8,6 @@ if (!isset($_SESSION['username'])) {
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,7 +20,7 @@ if (!isset($_SESSION['username'])) {
         <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css>
 
         <!--custome css file link-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleIndex.css">
     </head>
     <body>
         <!--header section starts-->
@@ -48,14 +46,14 @@ if (!isset($_SESSION['username'])) {
 
         <!--DOCTOR section starts-->
         <section class="doctor" id="doctor">
-            <h1 class="heading"> our <span>doctor</span> </h1>
+            <h1 class="heading"> dokter <span>kami</span> </h1>
             <div class="box-container">
                 <div class="box">
                     <div class="image">
                         <img src="dokter1.webp" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="profil.html" class="cart-btn">profil</a>
+                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">38thn</a>
                         </div>
                     </div>
@@ -71,7 +69,7 @@ if (!isset($_SESSION['username'])) {
                         <img src=dokter2.jpg alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="profil.html #profil1" class="cart-btn">profil</a>
+                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">34thn</a>
                         </div>
                     </div>
@@ -87,7 +85,7 @@ if (!isset($_SESSION['username'])) {
                         <img src=dokter3.jpg alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="profil.html #profil2" class="cart-btn">profil</a>
+                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">30thn</a>
                         </div>
                     </div>
@@ -103,7 +101,7 @@ if (!isset($_SESSION['username'])) {
                         <img src="dokter4.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="profil.html" class="cart-btn">profil</a>
+                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">32thn</a>
                         </div>
                     </div>
