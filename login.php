@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location: register.php");
+    header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -24,6 +24,7 @@ if (isset($_POST['submit'])) {
 		echo "<script>alert('Woops! Email Atau Password anda Salah.')</script>";
 	}
 }
+
 
 ?>
 
