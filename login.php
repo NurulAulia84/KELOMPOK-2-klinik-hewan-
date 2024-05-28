@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location: register.php");
+    header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -25,6 +25,7 @@ if (isset($_POST['submit'])) {
 	}
 }
 
+
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +38,7 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="styleLR.css">
 
-	<title>form login</title>
+	<title>FORM LOGIN</title>
 </head>
 <body>
 	<div class="container">
