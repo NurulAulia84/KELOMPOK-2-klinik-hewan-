@@ -53,7 +53,7 @@ if (!isset($_SESSION['username'])) {
                         <img src="dokter1.webp" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
+                            <a href="jadwalDokter.php #profil1" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">38thn</a>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ if (!isset($_SESSION['username'])) {
                         <img src=dokter2.jpg alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
+                            <a href="jadwalDokter.php #profil2" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">34thn</a>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ if (!isset($_SESSION['username'])) {
                         <img src=dokter3.jpg alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
+                            <a href="jadwalDokter.php #profil3" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">30thn</a>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ if (!isset($_SESSION['username'])) {
                         <img src="dokter4.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="jadwalDokter.php" class="cart-btn">Jadwal</a>
+                            <a href="jadwalDokter.php #profil4" class="cart-btn">Jadwal</a>
                             <a href="#" class="cart-btn">32thn</a>
                         </div>
                     </div>
