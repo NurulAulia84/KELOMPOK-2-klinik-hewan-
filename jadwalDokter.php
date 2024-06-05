@@ -17,8 +17,6 @@ if (!isset($_SESSION['username'])) {
     <body>
         <!--header section starts-->
         <header>
-
-            <input type="checkbox" name="" id="toggler">
             <label for="toggler" class="fas fa-bars"></label>
 
             <a href="#" class="logo">Klinik<span>Hewan</span></a>
@@ -34,8 +32,9 @@ if (!isset($_SESSION['username'])) {
                 <a href="#" class="fas fa-user"></a>
             </div>
         </header>
+
         <!--profil doctor starts-->
-        <section class="profil" id="profil">
+        <section class="profil" id="profil1">
             <h1 class="heading">Jadwal <span>Paraktek</span></h1>
             <div class="box-container">
                 <div class="user">
@@ -43,7 +42,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="user-info">
                         <h3>dr.elizabeth</h3>
                         <a1>Id <span>dokter: 01|</span></a1>
-                        <a href="data.html">Buat janji</a>
+                        <a href="janji_temu.html">Buat janji</a>
                     </div>
         
         <section class="tabel" id="tabel">
@@ -80,6 +79,150 @@ if (!isset($_SESSION['username'])) {
                 <p>Dr. Elizabeth adalah contoh yang menginspirasi dalam dunia kedokteran hewan. Dengan komitmen yang tak tergoyahkan terhadap profesi dan cintanya yang mendalam terhadap hewan, dia terus berkontribusi pada perbaikan kesehatan dan kesejahteraan hewan di masyarakat.</p>
                 </p>
             </div>
+        </section>
+
+        <section class="profil" id="profil2">
+            <h1 class="heading">Jadwal <span>Paraktek</span></h1>
+            <div class="box-container">
+                <div class="user">
+                    <img src=dokter2.jpg alt="">
+                    <div class="user-info">
+                        <h3>dr.jane smith</h3>
+                        <a1>Id <span>dokter: 02|</span></a1>
+                        <a href="janji_temu.html">Buat janji</a>
+                    </div>
+        
+        <section class="tabel" id="tabel">
+            <head>
+                <table>
+                    <h2>Table Jadwal Praktek</h2>
+                    <table style="width:50%">
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Waktu</th> 
+                            <th>Tempat</th>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 1</td>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 2</td>
+                        </tr>
+                    </table>
+                <p>Dr. jane smith adalah seorang dokter hewan yang berbakat dan berdedikasi dalam bidangnya. Dengan latar belakang pendidikan yang kuat 
+                    dan pengalaman klinis yang luas, dia telah menjadi salah satu ahli terkemuka dalam perawatan hewan.
+                <p>Dr. jane smith menempuh pendidikan di salah satu sekolah kedokteran hewan terkemuka di negaranya. Sejak kecil, dia selalu memiliki minat yang mendalam dalam dunia hewan dan keinginan untuk membantu mereka. 
+                    Ketertarikannya yang kuat terhadap ilmu kedokteran hewan membawanya untuk mengejar gelar dokter hewan dengan tekun.</p>
+                <p>Setelah menyelesaikan pendidikan dasar, Dr. jane smith mendapatkan pengalaman praktis yang berharga melalui magang dan kerja di berbagai klinik hewan. 
+                    Di sana, dia belajar langsung dari praktisi terbaik dalam bidangnya, memperoleh pemahaman yang mendalam tentang berbagai penyakit dan perawatan yang diperlukan oleh berbagai jenis hewan.</p>
+                <p>Keahlian Dr. jane smith meluas dari pemeriksaan kesehatan rutin hingga penanganan kasus-kasus medis yang kompleks. Dia dikenal karena keahliannya dalam mendiagnosis masalah kesehatan hewan 
+                    dan merancang rencana perawatan yang efektif. Ketelitiannya dan ketepatan diagnosanya membuatnya menjadi pilihan utama bagi pemilik hewan yang mencari perawatan terbaik untuk hewan kesayangan mereka.</p>
+                <p>Selain menjadi seorang praktisi yang cakap, Dr. jane smith juga sangat peduli terhadap kesejahteraan hewan. Dia secara aktif terlibat dalam kegiatan advokasi dan penyuluhan untuk meningkatkan pemahaman masyarakat 
+                    tentang kebutuhan hewan dan pentingnya perawatan yang baik. Keberhasilannya dalam mengintegrasikan keahlian klinisnya dengan advokasi untuk kesejahteraan hewan telah membuatnya dihormati di kalangan rekan-rekannya serta komunitas pecinta hewan.</p>
+                <p>Dr. jane smith adalah contoh yang menginspirasi dalam dunia kedokteran hewan. Dengan komitmen yang tak tergoyahkan terhadap profesi dan cintanya yang mendalam terhadap hewan, dia terus berkontribusi pada perbaikan kesehatan dan kesejahteraan hewan di masyarakat.</p>
+                </p>
+            </div>
+        </section>
+
+        <section class="profil" id="profil3">
+            <h1 class="heading">Jadwal <span>Paraktek</span></h1>
+            <div class="box-container">
+                <div class="user">
+                    <img src=dokter3.jpg alt="">
+                    <div class="user-info">
+                        <h3>dr.lorial spentus</h3>
+                        <a1>Id <span>dokter: 03|</span></a1>
+                        <a href="janji_temu.html">Buat janji</a>
+                    </div>
+        
+        <section class="tabel" id="tabel">
+            <head>
+                <table>
+                    <h2>Table Jadwal Praktek</h2>
+                    <table style="width:50%">
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Waktu</th> 
+                            <th>Tempat</th>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 1</td>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 2</td>
+                        </tr>
+                    </table>
+                <p>Dr. lorial spentus adalah seorang dokter hewan yang berbakat dan berdedikasi dalam bidangnya. Dengan latar belakang pendidikan yang kuat 
+                    dan pengalaman klinis yang luas, dia telah menjadi salah satu ahli terkemuka dalam perawatan hewan.
+                <p>Dr. lorial spentus menempuh pendidikan di salah satu sekolah kedokteran hewan terkemuka di negaranya. Sejak kecil, dia selalu memiliki minat yang mendalam dalam dunia hewan dan keinginan untuk membantu mereka. 
+                    Ketertarikannya yang kuat terhadap ilmu kedokteran hewan membawanya untuk mengejar gelar dokter hewan dengan tekun.</p>
+                <p>Setelah menyelesaikan pendidikan dasar, Dr. lorial spentus mendapatkan pengalaman praktis yang berharga melalui magang dan kerja di berbagai klinik hewan. 
+                    Di sana, dia belajar langsung dari praktisi terbaik dalam bidangnya, memperoleh pemahaman yang mendalam tentang berbagai penyakit dan perawatan yang diperlukan oleh berbagai jenis hewan.</p>
+                <p>Keahlian Dr. lorial spentus meluas dari pemeriksaan kesehatan rutin hingga penanganan kasus-kasus medis yang kompleks. Dia dikenal karena keahliannya dalam mendiagnosis masalah kesehatan hewan 
+                    dan merancang rencana perawatan yang efektif. Ketelitiannya dan ketepatan diagnosanya membuatnya menjadi pilihan utama bagi pemilik hewan yang mencari perawatan terbaik untuk hewan kesayangan mereka.</p>
+                <p>Selain menjadi seorang praktisi yang cakap, Dr. lorial spentus juga sangat peduli terhadap kesejahteraan hewan. Dia secara aktif terlibat dalam kegiatan advokasi dan penyuluhan untuk meningkatkan pemahaman masyarakat 
+                    tentang kebutuhan hewan dan pentingnya perawatan yang baik. Keberhasilannya dalam mengintegrasikan keahlian klinisnya dengan advokasi untuk kesejahteraan hewan telah membuatnya dihormati di kalangan rekan-rekannya serta komunitas pecinta hewan.</p>
+                <p>Dr. lorial spentus adalah contoh yang menginspirasi dalam dunia kedokteran hewan. Dengan komitmen yang tak tergoyahkan terhadap profesi dan cintanya yang mendalam terhadap hewan, dia terus berkontribusi pada perbaikan kesehatan dan kesejahteraan hewan di masyarakat.</p>
+                </p>
+            </div>
+        </section>
+
+        <section class="profil" id="profil4">
+            <h1 class="heading">Jadwal <span>Paraktek</span></h1>
+            <div class="box-container">
+                <div class="user">
+                    <img src=dokter4.jpg alt="">
+                    <div class="user-info">
+                        <h3>dr.jennifer</h3>
+                        <a1>Id <span>dokter: 04|</span></a1>
+                        <a href="janji_temu.html">Buat janji</a>
+                    </div>
+        
+        <section class="tabel" id="tabel">
+            <head>
+                <table>
+                    <h2>Table Jadwal Praktek</h2>
+                    <table style="width:50%">
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Waktu</th> 
+                            <th>Tempat</th>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 1</td>
+                        </tr>
+                        <tr>
+                            <td>20/Mei/2024</td>
+                            <td>10.00-12.00</td>
+                            <td>Klinik 2</td>
+                        </tr>
+                    </table>
+                <p>Dr. jennifer adalah seorang dokter hewan yang berbakat dan berdedikasi dalam bidangnya. Dengan latar belakang pendidikan yang kuat 
+                    dan pengalaman klinis yang luas, dia telah menjadi salah satu ahli terkemuka dalam perawatan hewan.
+                <p>Dr. jennifer menempuh pendidikan di salah satu sekolah kedokteran hewan terkemuka di negaranya. Sejak kecil, dia selalu memiliki minat yang mendalam dalam dunia hewan dan keinginan untuk membantu mereka. 
+                    Ketertarikannya yang kuat terhadap ilmu kedokteran hewan membawanya untuk mengejar gelar dokter hewan dengan tekun.</p>
+                <p>Setelah menyelesaikan pendidikan dasar, Dr. jennifer mendapatkan pengalaman praktis yang berharga melalui magang dan kerja di berbagai klinik hewan. 
+                    Di sana, dia belajar langsung dari praktisi terbaik dalam bidangnya, memperoleh pemahaman yang mendalam tentang berbagai penyakit dan perawatan yang diperlukan oleh berbagai jenis hewan.</p>
+                <p>Keahlian Dr. jennifer meluas dari pemeriksaan kesehatan rutin hingga penanganan kasus-kasus medis yang kompleks. Dia dikenal karena keahliannya dalam mendiagnosis masalah kesehatan hewan 
+                    dan merancang rencana perawatan yang efektif. Ketelitiannya dan ketepatan diagnosanya membuatnya menjadi pilihan utama bagi pemilik hewan yang mencari perawatan terbaik untuk hewan kesayangan mereka.</p>
+                <p>Selain menjadi seorang praktisi yang cakap, Dr. jennifer juga sangat peduli terhadap kesejahteraan hewan. Dia secara aktif terlibat dalam kegiatan advokasi dan penyuluhan untuk meningkatkan pemahaman masyarakat 
+                    tentang kebutuhan hewan dan pentingnya perawatan yang baik. Keberhasilannya dalam mengintegrasikan keahlian klinisnya dengan advokasi untuk kesejahteraan hewan telah membuatnya dihormati di kalangan rekan-rekannya serta komunitas pecinta hewan.</p>
+                <p>Dr. jennifer adalah contoh yang menginspirasi dalam dunia kedokteran hewan. Dengan komitmen yang tak tergoyahkan terhadap profesi dan cintanya yang mendalam terhadap hewan, dia terus berkontribusi pada perbaikan kesehatan dan kesejahteraan hewan di masyarakat.</p>
+                </p>
+            </div>
+        </section>
+        
+    
 
         <!--profil doctor ends-->
 
