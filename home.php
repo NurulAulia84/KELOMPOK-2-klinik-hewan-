@@ -32,7 +32,7 @@ if (!isset($_SESSION['username'])) {
             <a href="#" class="logo">Klinik<span>Hewan</span></a>
             <nav class="navbar">
                 <a href="#home">home</a>
-                <a href="data.html">data hewan</a>
+                <a href="datahewan.php">data hewan</a>
                 <a href="dokter.php">dokter</a>
                 <a href="logout.php">LogOut</a>
             </nav>
@@ -50,7 +50,7 @@ if (!isset($_SESSION['username'])) {
                 <h3>Selamat Datang</h3>
                 <p>Sistem klinik hewan online ini adalah untuk mengatasi beberapa kendala dalam 
                     proses mendapatkan layanan di klinik hewan saat ini.</p>
-                <a href="data.html" class="btn">Konsultasi sekarang</a>
+                <a href="dokter.php" class="btn">Konsultasi sekarang</a>
             </div>
         </section>
         <!--home section ends-->
@@ -59,19 +59,19 @@ if (!isset($_SESSION['username'])) {
         <section class="footer" id="footer">
             <div class="box-container">
                 <div class="box">
-                    <h3>extra links</h3>
+                    <h3>ekstra link</h3>
                     <a href="#">my account</a>
                     <a href="#">my order</a>
                     <a href="#">my favorite</a>
                 </div>
                 <div class="box">
-                    <h3>location</h3>
+                    <h3>lokasi</h3>
                     <a href="#">jln.veteran</a>
                     <a href="#">jln.bau massepe</a>
                     <a href="#">jln.jambu</a>
                 </div>
                 <div class="box">
-                    <h3>contact info</h3>
+                    <h3>info kontak</h3>
                     <a href="#">0815267384</a>
                     <a href="#">email@gmail.com</a>
                     <a href="#">jln.jambu</a>
