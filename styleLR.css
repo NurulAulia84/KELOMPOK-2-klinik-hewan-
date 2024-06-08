@@ -61,7 +61,7 @@ body {
     padding: 15px 20px;
     text-align: center;
     border: none;
-    background: #6c5ce7;
+    background: #e84393;
     outline: none;
     border-radius: 30px;
     font-size: 1.2rem;
@@ -72,7 +72,7 @@ body {
 
 .container .login-email .input-group .btn:hover {
     transform: translateY(-5px);
-    background: #a29bfe;
+    background: #333;
 }
 
 .login-register-text {
@@ -82,7 +82,7 @@ body {
 
 .login-register-text a {
     text-decoration: none;
-    color: #6c5ce7;
+    color: #e84393;
 }
 
 @media (max-width: 430px) {
